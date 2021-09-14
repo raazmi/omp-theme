@@ -1,0 +1,96 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "blocks": [
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "newline": true,
+      "segments": [
+        {
+          "type": "exit",
+          "style": "plain",
+          "foreground": "#C94A16",
+          "properties": {
+            "prefix": "",
+            "display_exit_code": false
+          }
+        }
+      ]
+    },
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "newline": true,
+      "segments": [
+        {
+          "type": "root",
+          "style": "plain",
+          "foreground": "#fc747f",
+          "properties": {
+            "root_icon": "root",
+            "prefix": "",
+            "postfix": " <#ffffff>in</> "
+          }
+        },
+        {
+          "type": "path",
+          "style": "plain",
+          "foreground": "#00eaff",
+          "properties": {
+            "style": "folder",
+            "prefix": ""
+          }
+        },
+        {
+          "type": "git",
+          "style": "plain",
+          "foreground": "#cf7cff",
+          "properties": {
+            "prefix": "<#ffffff>on</> ",
+            "display_status": true,
+            "display_status_detail": false,
+            "display_branch_status": false,
+            "display_stash_count": false,
+            "working_color": "#ff7708",
+            "staging_color": "#8afa0a",
+            "status_separator_icon": "",
+            "local_working_icon": " [!]",
+            "local_staged_icon": " [+]",
+            "commit_icon": "",
+            "tag_icon": "",
+            "merge_icon": "",
+            "rebase_icon": "",
+            "cherry_pick_icon": "",
+            "revert_icon": "",
+            "branch_icon": " "
+          }
+        },
+        {
+          "type": "exit",
+          "style": "plain",
+          "foreground": "#C94A16",
+          "properties": {
+            "prefix": "x",
+            "display_exit_code": false
+          }
+        }
+      ]
+    },
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "newline": true,
+      "segments": [
+        {
+          "type": "text",
+          "style": "plain",
+          "foreground": "#76ffd1",
+          "properties": {
+            "prefix": "",
+            "text": "\u276F"
+          }
+        }
+      ]
+    }
+  ]
+}
